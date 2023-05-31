@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: #272346;
+    background: #3f6e6a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +14,13 @@ body {
 }
 
 #quiz {
-    background: #e3f6f5;
+    background: #ffffff;
     width: 30rem;
     padding: 4rem;
     text-align: center;
+    border-radius: 4rem;
+    border: none;
+    box-shadow: 2px 3px 3px rgb(60, 60, 60, 50%);
 }
 
 h1 {
@@ -26,9 +30,11 @@ h1 {
     padding: 2px 0;
 }
 
-#question {
-    font-size: 1.7rem;
+#questions {
+    font-size: 1.3rem;
     color: #5a6772;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .button {
@@ -36,7 +42,9 @@ h1 {
     color: white;
     width: 250px;
     font-size: 20px;
-    border-radius: 0.3rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 2px 3px 3px rgb(60, 60, 60, 50%);
     padding: 10px 20px;
     margin: 10px 40px 10px
 }
@@ -48,5 +56,16 @@ h1 {
 }
 
 #progress {
+    margin-top: 2rem;
     font-size: 20px;
+}
+
+hr {
+    color: #ffffff;
+}
+
+.score {
+    font-size: 1.5rem;
+    color: #57636e;
+    margin-top: 2rem;
 }
